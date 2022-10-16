@@ -191,6 +191,14 @@ input, select, textarea {
 		font-size: 0.8em;
 	}
 
+	#resume-link {
+		margin: auto;
+		font-size: .8em;
+		position: relative;
+		right: 35px;
+		color: #6a777e;
+	}
+
 	hr {
 		border: 0;
 		border-top: solid 1px #ddd;
@@ -248,6 +256,9 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			footer a {
+				margin-bottom: 20px;
+			}
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1991,9 +2002,17 @@ input, select, textarea {
 			font-size: 0.8em;
 		}
 
+		.item p {
+			padding: 0 10px;
+		}
+
 			.item header h3 {
 				font-size: 1em;
 			}
+
+	.item a img {
+		width: 100%;
+	}
 
 /* Icons */
 
